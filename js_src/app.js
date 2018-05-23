@@ -1,15 +1,7 @@
 import { MessageHandler } from "./msg.js";
 import * as u from "./util.js";
-import ROT from "rot-js";
 import * as modes from "./mode.js";
 import * as d from "./data.js";
-import { mapFactory } from "./map.js";
-import { EntityFactory } from "./entities.js";
-import { TIMER } from "./timing.js";
-
-import { STAT_NAMES } from "./stats.js";
-import { expForLevel } from "./util.js";
-import { Dungeon } from "./dungeon.js";
 
 export let App = {
   SAVE_LOCATION: "EDHBuild",

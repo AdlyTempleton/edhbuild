@@ -1,5 +1,4 @@
 import "babel-polyfill";
-import ROT from "rot-js";
 import { App } from "./app.js";
 
 window.onload = function() {

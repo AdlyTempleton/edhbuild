@@ -1,18 +1,7 @@
-import Game from "./util.js";
-import { tryMusic } from "./skills.js";
+
 import * as d from "./data.js";
 import { MessageHandler } from "./msg.js";
-import { Symbol } from "./symbol.js";
-import { TILES } from "./tile.js";
-import { EntityFactory } from "./entities.js";
 import { BINDINGS } from "./key.js";
-import { TIMER } from "./timing.js";
-import { expForLevel } from "./util.js";
-import { getAllSpells } from "./spells.js";
-import { PICKPOCKET_SPELL_DUMMY } from "./spells.js";
-import ROT from "rot-js";
-
-import { STAT_NAMES } from "./stats.js";
 
 class Mode {
   constructor(a) {
