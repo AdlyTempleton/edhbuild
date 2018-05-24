@@ -1,5 +1,4 @@
 import { MessageHandler } from "./msg.js";
-import * as u from "./util.js";
 import * as modes from "./mode.js";
 import * as d from "./data.js";
 

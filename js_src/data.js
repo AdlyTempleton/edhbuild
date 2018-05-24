@@ -4,12 +4,7 @@
  */
  //TODO persist
 import { MessageHandler } from "./msg.js";
-import { mapFactory } from "./map.js";
-import { Entity } from "./entity.js";
-import { EntityFactory } from "./entities.js";
 import { App } from "./app.js";
-import { Dungeon } from "./dungeon.js";
-import { getSpellMap } from "./spells.js";
 export let DATA = {
   /**
    * Resets/initializes stored values
@@ -17,7 +12,6 @@ export let DATA = {
    */
   clear: function() {
     this.state = {};
-    };
   },
 
   /**
